@@ -1,1 +1,1 @@
-"# Projekt02" 
+"Projekt02 Denis Grabiszewski" 
