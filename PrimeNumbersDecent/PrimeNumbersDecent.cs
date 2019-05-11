@@ -10,8 +10,6 @@ namespace PrimeNumbersDecent
 {
     class PrimeNumbersDecent
     {
-        private static readonly int Iter = 10;
-        private static ulong Counter;
         private static bool IsPrime(BigInteger Num)
         {
             if (Num < 2) return false;
@@ -42,6 +40,8 @@ namespace PrimeNumbersDecent
             }
             return true;
         }
+        private static readonly int Iter = 10;
+        private static ulong Counter;
         static void Main(string[] args)
         {
             long min = long.MaxValue;
